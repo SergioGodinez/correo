@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--- BOOTSTRAP -->
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+  <!-- -->
+	<title>Registrate</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body style="font-family: 'DM Serif Text', serif;">
+	<section class="row">
+		<article class="col-lg-4">
+		</article>
+		<form id="formulario" action="enviar.php" method="post" class="col-lg-4 text-center justify-content-around">
+			<h2 class="text-center">Contacto</h2>
+			<input class="text-center" type="text" name="nombre" placeholder="Nombre" required>
+			<br>
+			<br>
+			<input class="text-center" type="text" name="correo" placeholder="Correo" required>
+			<br>
+			<br>
+			<input class="text-center" type="text" name="telefono" placeholder="Telefono" required>
+			<br>
+			<br>
+			<textarea class="text-center" name="mensaje" 	placeholder="Escribe aqui tu mensaje" required></textarea>
+			<br>
+			<br>
+			<input id="boton" class="bg-dark" type="submit" value="ENVIAR" id="boton">
+		</form>
+
+		<article class="col-lg-4">
+		</article>
+	</section>
+
+</body>
+</html>
